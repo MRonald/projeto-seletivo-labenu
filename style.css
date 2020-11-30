@@ -1,0 +1,112 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: Arial;
+	background-color: rgb(89, 95, 150);
+	display: flex;
+	flex-direction: column;
+}
+header#cabecalho {
+	background-color: rgb(205, 77, 0);
+	color: white;
+	text-align: center;
+	padding: 0.7%;
+	font-size: 2vh;
+}
+section#conteudo {
+	text-align: center;
+}
+img#logo {
+	height: 20vh;
+	margin: 3% auto 3% auto;
+}
+div#box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+div#box div.cont {
+	color: white;
+	height: 18vh;
+	width: 25vh;
+	margin: 2.5vh;
+	text-align: center;
+	line-height: 6vh;
+	font-size: 4.5vh;
+	padding: 2vh;
+	font-weight: bolder;
+	font-style: oblique;
+	box-shadow: 0px 0px 1px black;
+}
+div#box div.cont p {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+div.um {
+	background-color: rgb(148, 196, 125);
+}
+div.dois {
+	background-color: rgb(224, 102, 102);
+}
+div.tres {
+	background-color: rgb(109, 158, 235);
+}
+p#turmas {
+	text-align: right;
+	color: white;
+	font-style: oblique;
+	font-size: 3vh;
+	padding-right: 0.5vh;
+	margin-top: 63px;
+}
+footer#rodape {
+	/*margin-top: 100px;*/
+	width: 100%;
+	background-color: rgb(216, 216, 216);
+	text-align: center;
+	height: 18vh;
+}
+div#ft {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+footer#rodape p {
+	position: absolute;
+	float: right;
+	font-size: 2.5vh;
+}
+footer#rodape form input#email {
+	width: 30%;
+
+}
+footer#rodape form input#button {
+	width: 10%;
+}
+input#email {
+	height: 6vh;
+	margin-right: -0.7vh;
+	font-size: 2.5vh;
+	width: 100%;
+}
+a#button {
+	height: 6.75vh;
+	font-size: 2.5vh;
+	border: 0.5px solid rgb(128, 128, 128);
+	padding: 1.8vh;
+	background-color: rgb(205, 77, 0);
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+}
+
+/*
+position: absolute;
+	bottom: 0px;
+
+	
