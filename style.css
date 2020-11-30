@@ -61,7 +61,6 @@ p#turmas {
 	font-style: oblique;
 	font-size: 3vh;
 	padding-right: 0.5vh;
-	margin-top: 63px;
 }
 footer#rodape {
 	/*margin-top: 100px;*/
@@ -69,6 +68,13 @@ footer#rodape {
 	background-color: rgb(216, 216, 216);
 	text-align: center;
 	height: 18vh;
+	position: absolute;
+	bottom: 0px;
+}
+@media (max-width: 600px) {
+	footer#rodape {
+		position: relative;
+	}
 }
 div#ft {
 	height: 100%;
@@ -104,9 +110,3 @@ a#button {
 	color: white;
 	text-decoration: none;
 }
-
-/*
-position: absolute;
-	bottom: 0px;
-
-	
