@@ -1,3 +1,16 @@
+function alterarLayout() {
+    var resWidth = screen.width;
+    if (resWidth <= 500) {
+        var rodape = document.getElementById("rodape");
+        rodape.id = "rodapeMob";
+    } else {
+        var rodape = document.getElementById("rodapeMob");
+        rodape.id = "rodape";
+    }
+}
+window.onload = function () {
+    alterarLayout();
+}
 function envioEmail() {
     var email = document.getElementById("email").value;
     // Validando email
@@ -23,3 +36,4 @@ function envioEmail() {
         bemVindo.innerText = "Seja bem-vindo, " + email + "!";
     }
 }
+setInterval(alterarLayout, 100);

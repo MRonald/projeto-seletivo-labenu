@@ -19,7 +19,7 @@ section#conteudo {
 	text-align: center;
 }
 img#logo {
-	height: 20vh;
+	height: 17vh;
 	margin: 3% auto 3% auto;
 }
 div#box {
@@ -76,22 +76,29 @@ footer#rodape {
 		position: relative;
 	}
 }
+footer#rodapeMob {
+	width: 100%;
+	background-color: rgb(216, 216, 216);
+	text-align: center;
+	height: 18vh;
+	position: relative;
+	bottom: 0px;
+}
 div#ft {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
-footer#rodape p {
+footer p {
 	position: absolute;
 	float: right;
 	font-size: 2.5vh;
 }
-footer#rodape form input#email {
+footer form input#email {
 	width: 30%;
-
 }
-footer#rodape form input#button {
+footer form input#button {
 	width: 10%;
 }
 input#email {
